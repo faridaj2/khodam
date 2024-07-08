@@ -68,8 +68,8 @@ function Home() {
             </form>
           </div>
           {modal && khodam && (
-            <div className="w-full h-full absolute flex items-center justify-center left-0 top-0">
-              <div className="bg-white w-1/2 h-1/2 rounded-lg shadow-md shadow-white text-black">
+            <div className="w-full h-full absolute flex items-center justify-center left-0 top-0 px-3">
+              <div className="bg-white w-full max-w-screen-sm h-1/2 rounded-lg shadow-md shadow-white text-black">
                 <div className="flex justify-end p-3 ">
                   <button
                     className="text-black"
